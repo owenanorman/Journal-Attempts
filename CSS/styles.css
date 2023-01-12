@@ -15,9 +15,9 @@ body {
     background-color: gray; /* background colour of the entire website */
 }
 
-ul {
-
-}
+ /*ul {
+    THIS IS NOT BEING USED YET SO IT IS COMMENTED OFF 
+} */ 
 /* ^^^ this is the style for the unorderd list 
 (what you style to move around the entire website)
 */
