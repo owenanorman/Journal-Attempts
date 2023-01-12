@@ -7,17 +7,30 @@ p {
 }
 
 
-
-
+/* Astrid symbol with curly brackets means it applies to the entire website, I dont know if it is page specific or not */ 
+* {
+ margin: 0%; /* its a margin come on now */ 
+ padding: 0%; /* I dont entirely know what this means but if you set it to a high number page looks insane, try it 
+ if set to 0% as so, it moves teh text to the left of the screen*/
+ text-decoration: none; /* this removes the underline for the hyperlinks */ 
+}
 
 ul {
 
 }
-
+/* ^^^ this is the style for the unorderd list 
+(what you style to move around the entire website)
+*/
 ul li {
+    list-style: none; /* This removes the bullet points the list originally had */
 
 }
-
+/* ^^^ this is the style for the list item inside the  unorderd list 
+(move around the individual links)
+*/
 ul li a {
-
+     
 }
+/* ^^^ this is the style for the anchor tag inside the  list item inside the  unorderd list
+(text inside of the the link)
+*/
