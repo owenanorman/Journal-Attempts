@@ -1,18 +1,18 @@
-h1 {
-    text-align: center;
-}
-
-p {
-    color: purple;
-}
-
-
 /* Astrid symbol with curly brackets means it applies to the entire website, I dont know if it is page specific or not */ 
 * {
  margin: 0%; /* its a margin come on now */ 
  padding: 0%; /* I dont entirely know what this means but if you set it to a high number page looks insane, try it 
  if set to 0% as so, it moves teh text to the left of the screen*/
  text-decoration: none; /* this removes the underline for the hyperlinks */ 
+    }
+nav {
+    width: 100%; /* this is the width of how far this will go, 100% means the whole page, 50% means half and so on */
+    height: 100px; /* this is how tall it is */
+    background-color: black; /* this is just the colour of what we are making */ 
+}
+
+body {
+    background-color: gray; /* background colour of the entire website */
 }
 
 ul {
@@ -23,14 +23,38 @@ ul {
 */
 ul li {
     list-style: none; /* This removes the bullet points the list originally had */
-
+    display: inline; /* this makes the page names on the same line instead of being vertical */
+    /* float: left; /* this removes the space between the text so that the letters are touching each other, and since I think this is useless I decided against it */
+    line-height: 100px; /*makes the text centered in its bracket */ 
 }
 /* ^^^ this is the style for the list item inside the  unorderd list 
 (move around the individual links)
 */
 ul li a {
+    /* display:block; /* makes it so you dont need to click on the exact words of the text you can click around it in side the bar to go to the new page*/
+    font-size: 40px;
+    font-family: 'Times New Roman';
+    color: purple;
+    padding: 0 5in; /* this makes the text not touch each other the 0 is for up and down, and the 5in is for left and right */ 
      
 }
 /* ^^^ this is the style for the anchor tag inside the  list item inside the  unorderd list
 (text inside of the the link)
 */
+h1 {
+    font-size: 65px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+h3{
+    font-size: 35px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    margin: 25px;
+    text-indent: 45px;
+    font-size: 25px;
+    color: purple;
+}
